@@ -1,9 +1,9 @@
 # 💳 QuickPos 🚀
 
-QuickPos, farklı ödeme sağlayıcılarını destekleyen güçlü bir ödeme entegrasyon modülüdür. Şu anda PayTR, Shopier, Cryptomus, Payeer, Papara, Anypay, EsnekPos, İyzico, PayMaya, FedaPay sağlayıcısını desteklemektedir ve gelecekte birçok yeni sağlayıcı ile özellik eklemeyi planlamaktadır. Yol haritamıza göz atarak gelecek özellikleri keşfedebilirsiniz.
+QuickPos, farklı ödeme sağlayıcılarını destekleyen güçlü bir ödeme entegrasyon modülüdür. Şu anda PayTR, Shopier, Cryptomus, Payeer, Papara, Anypay, EsnekPos, İyzico, PayMaya, FedaPay, Heleket, Paydisini sağlayıcısını desteklemektedir ve gelecekte birçok yeni sağlayıcı ile özellik eklemeyi planlamaktadır. Yol haritamıza göz atarak gelecek özellikleri keşfedebilirsiniz.
 
 
-- SpeedSMM.COM Tarafın'dan Geliştirilmektedir.
+- QuickPanel.NET Tarafın'dan Geliştirilmektedir.
 
 ---
 
@@ -164,6 +164,8 @@ const quickPos = new QuickPos({
 - [x] EsnekPos entegrasyonu
 - [x] PayMaya entegrasyonu
 - [x] FedaPay entegrasyonu
+- [x] Heleket entegrasyonu
+- [x] Paydisini entegrasyonu
 
 ---
 
