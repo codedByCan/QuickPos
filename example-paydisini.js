@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 const quickPos = new QuickPos({
   providers: {
     paydisini: {
-      apiKey: 'YOUR_API_KEY', // Gerçek API anahtarınızla değiştirin
+      apiKey: '', // Gerçek API anahtarınızla değiştirin
       debug: true // Geliştirme modunda hata ayıklama için
     }
   }

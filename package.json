@@ -1,6 +1,6 @@
 {
   "name": "quickpos",
-  "version": "1.0.909",
+  "version": "1.0.911",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -45,9 +45,11 @@
   "description": "",
   "dependencies": {
     "@tokenpayeng/tokenpay": "^0.0.14",
+    "@tosspayments/tosspayments-sdk": "^2.3.5",
     "anypay-node": "^1.0.0",
     "axios": "^1.7.2",
     "body-parser": "^1.20.3",
+    "braintree": "^3.30.0",
     "crypto": "^1.0.1",
     "dayjs": "^1.11.13",
     "esnekpos": "^1.0.0",
@@ -58,6 +60,7 @@
     "multer": "^1.4.5-lts.1",
     "node-fetch": "^2.7.0",
     "paymaya-integration": "^1.0.4",
+    "paymentwall": "^2.1.1",
     "payu-websdk": "^1.2.0",
     "uuid": "^9.0.1"
   }
