@@ -1014,6 +1014,27 @@ Bu dokümantasyon, QuickPos tarafından desteklenen tüm 48 ödeme sağlayıcıs
 
 ---
 
+### 🌐 Stripe (Global)
+- **Website**: https://stripe.com
+- **Desteklenen Ülkeler**: 46+ ülke
+- **Para Birimleri**: 135+ para birimi
+- **Client Oluşturma**:
+  ```javascript
+  {
+    secretKey: 'YOUR_SECRET_KEY',
+    webhookSecret: 'YOUR_WEBHOOK_SECRET' // Opsiyonel, webhook doğrulaması için
+  }
+  ```
+- **createPayment Gereken Alanlar**:
+  - `amount`: Ödeme tutarı
+  - `currency`: Para birimi
+  - `orderId`: Benzersiz sipariş ID
+  - `callback_link`: Başarılı URL yönlendirmesi
+  - `email`: Müşteri email
+  - `name`: Ürün açıklaması
+
+---
+
 ### 🌐 Amazon Pay (Global)
 - **Website**: https://pay.amazon.com
 - **Desteklenen Ülkeler**: ABD, AB, Japonya, Hindistan
@@ -1465,7 +1486,7 @@ Bu dokümantasyon, QuickPos tarafından desteklenen tüm 48 ödeme sağlayıcıs
 - **Orta Doğu & Afrika**: 17 provider
 - **Avrupa**: 5 provider
 - **Latin Amerika**: 2 provider
-- **Global**: 13 provider
+- **Global**: 14 provider
 - **Kripto Para**: 12 provider
 
 ### Para Birimi Çeşitliliği
@@ -1473,7 +1494,7 @@ Bu dokümantasyon, QuickPos tarafından desteklenen tüm 48 ödeme sağlayıcıs
 - **En Çok Kullanılan**: USD, EUR, INR, IDR, TRY
 
 ### Toplam İstatistikler
-- **Toplam Provider**: 48
+- **Toplam Provider**: 49
 - **Desteklenen Ülke**: 200+
 - **Kripto Para Desteği**: 2000+ coin
 - **Yerel Ödeme Yöntemi**: 500+
@@ -1541,4 +1562,4 @@ Bu dokümantasyon QuickPos v1.3.0 için hazırlanmıştır.
 
 **Son Güncelleme**: 2024
 **Versiyon**: 1.3.0
-**Toplam Provider**: 48
+**Toplam Provider**: 49

@@ -148,6 +148,11 @@ const testConfig = {
       sandbox: true
     },
     
+    // Stripe Test
+    stripe: {
+      secretKey: 'sk_test_YOUR_TEST_SECRET_KEY'
+    },
+    
     // Cashfree Test
     cashfree: {
       appId: 'YOUR_APP_ID',
@@ -410,6 +415,7 @@ function getTestDataForProvider(providerName) {
     '2checkout': { currency: 'USD', amount: '100', customerName: 'Test User' },
     coingate: { currency: 'USD', amount: '10', receiveCurrency: 'EUR' },
     shurjopay: { currency: 'BDT', amount: '1000', city: 'Dhaka' },
+    stripe: { currency: 'USD', amount: '100' },
     cashfree: { currency: 'INR', amount: '1000', customerId: 'customer_test' },
     payspace: { currency: 'ZAR', amount: '100' },
     payulatam: { currency: 'COP', amount: '10000', country: 'CO', paymentMethod: 'VISA' },

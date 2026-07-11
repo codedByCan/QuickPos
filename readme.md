@@ -84,6 +84,7 @@
 | **EsnekPos** | 🇹🇷 Turkey | ✅ Active |
 | **Paydisini** | 🇹🇷 Turkey | ✅ Active |
 | **PayNetTR** | 🇹🇷 Turkey | ✅ Active |
+| **Stripe** | 🌐 Global | ✅ Active |
 | **PayPal** | 🌐 Global | ✅ Active |
 | **Amazon Pay** | 🌐 Global | ✅ Active |
 | **Paddle** | 🌐 Global SaaS | ✅ Active |
@@ -321,6 +322,7 @@ Middleware for handling payment callbacks.
 | Midtrans | ✅ | v1.2.9 |
 | Plisio | ✅ | v1.3.0 |
 | Tripay | ✅ | v1.3.0 |
+| Stripe | ✅ | v1.3.1 |
 | And 30+ more... | ✅ | Ongoing |
 
 </div>
